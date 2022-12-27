@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  
+}
+.main_div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(circle at top left,#011315E3, #44378fe3);
+}
+.child_div {
+  width: 400px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: #11485a;
+  padding: 10px 20px 30px 20px;
+  box-shadow: 10px 10px 6px #25aedc;
+  width: 450px;
+  height: 500px;
+  margin: 10px;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  font-size: 24px;
+  width: 100%;
+  height: 70px;
+  margin: 10px auto 10px auto;
+}
+
+.key_container {
+  background-color: #4479B5;
+  box-shadow: 10px 10px 6px #1e2528;
+  height: 57vh;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/* FRIST BUTTON ROW*/
+
+#first_key_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#first_key_row input[type="button"] {
+  width: 65px;
+  height: 65px;
+}
+
+#first_key_row input[name="Cancel"] {
+  margin-right: 26px;
+}
+
+#first_key_row input[name="div"] {
+  margin-right: 26px;
+}
+
+#first_key_row input[name="mul"] {
+  margin-right: 26px;
+}
+
+/* SECIND BUTTON ROW*/
+#second_key_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#second_key_row input[type="button"] {
+  width: 65px;
+  height: 65px;
+}
+
+#second_key_row input[name="seven"] {
+  margin-right: 26px;
+}
+
+#second_key_row input[name="eight"] {
+  margin-right: 26px;
+}
+
+#second_key_row input[name="nine"] {
+  margin-right: 26px;
+}
+
+/* THIRD BUTTON ROW*/
+#third_key_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#third_key_row input[type="button"] {
+  width: 65px;
+  height: 65px;
+}
+
+#third_key_row input[name="four"] {
+  margin-right: 26px;
+}
+
+#third_key_row input[name="five"] {
+  margin-right: 26px;
+}
+
+#third_key_row input[name="six"] {
+  margin-right: 26px;
+}
+
+/* FOURTH BUTTON ROW*/
+#fourth_key_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#fourth_key_row input[type="button"] {
+  width: 65px;
+  height: 65px;
+}
+
+#fourth_key_row input[name="one"] {
+  margin-right: 26px;
+}
+
+#fourth_key_row input[name="two"] {
+  margin-right: 26px;
+}
+
+#fourth_key_row input[name="three"] {
+  margin-right: 26px;
+}
+
+/* FIFTH BUTTON ROW*/
+#fifth_key_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#fifth_key_row input[type="button"] {
+  width: 65px;
+  height: 65px;
+}
+
+#fifth_key_row input[name="zero"] {
+  margin-right: 26px;
+  width: 157px;
+}
+
+#fifth_key_row input[name="dot"] {
+  margin-right: 26px;
+}
+
+/* SIXTH BUTTON ROW*/
+#sixth_key_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#sixth_key_row input[type="button"] {
+  width: 65px;
+  height: 65px;
+}
+
+#sixth_key_row input[name="sub"] {
+  margin-bottom: 20px;
+}
+
+#sixth_key_row input[name="sum"] {
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+#sixth_key_row input[name="equal"] {
+  margin-bottom: 20px;
+  height: 150px;
+}
